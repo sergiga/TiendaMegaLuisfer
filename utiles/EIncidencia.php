@@ -2,6 +2,8 @@
   abstract class EIncidencia {
 
     const Mojado = 1;
-    //...etc
+    const CargarSistema = 2;
+    const Liberar = 3;
+    const ReparacionTerceros = 4;
   }
 ?>
