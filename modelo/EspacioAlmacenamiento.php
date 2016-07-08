@@ -5,7 +5,6 @@
  */
 class EspacioAlmacenamiento
 {
-
   private $idubicacion;
   private $estanteria;
   private $cajon;
@@ -17,6 +16,5 @@ class EspacioAlmacenamiento
     $this->cajon=$cajon;
   }
 }
-
 
  ?>

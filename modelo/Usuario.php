@@ -13,8 +13,8 @@ class Usuario
   private $email;
   private $password;
 
-
-  function __construct($username, $nifdni, $nombre, $apellidos, $telefono, $email, $password)
+  function __construct($username, $nifdni, $nombre, $apellidos, $telefono,
+    $email, $password)
   {
     $this->username=$username;
     $this->nifdni=$nifdni;
@@ -24,8 +24,6 @@ class Usuario
     $this->email=$email;
     $this->password=$password;
   }
-
-
-
 }
+
 ?>
