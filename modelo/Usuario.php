@@ -1,4 +1,5 @@
 <?php
+require_once 'datos/GestorPersistenciaUsuario.php';
 /**
  *
  */
@@ -23,6 +24,17 @@ class Usuario
     $this->telefono=$telefono;
     $this->email=$email;
     $this->password=$password;
+  }
+
+  public static function comprobarLogin($usernameLogin, $passLogin) {
+    $usuario = GestorPersistenciaUsuario::getByUsername($usernameLogin);
+    if(!is_null($usuario)) {
+      return $passLogin === $usuario->getPassword();
+    }
+  }
+
+  public function getPassword() {
+    return $this->password;
   }
 }
 
