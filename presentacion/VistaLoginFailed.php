@@ -22,6 +22,7 @@
             <hr/>
             Usuario: <input type="text" name="username" class="form-control"/>
             Contraseña: <input type="text" name="password" class="form-control"/>
+            <font size="3" color="red">La dirección de correo electrónico y la contraseña que has introducido no coinciden.<br></font>
             <input type="submit" value="Login" class="btn btn-success"/>
         </form>
         <footer class="col-lg-12">
