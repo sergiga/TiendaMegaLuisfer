@@ -1,16 +1,11 @@
 <?php
-require_once 'datos/Conexion.php';
 /**
  *
  */
 class ControladorLogin extends Controlador {
 
-  private $conexion;
-
   public function __construct() {
-
     parent::__construct();
-    $this->conexion = Conexion::getInstance();
   }
 
   public function login() {

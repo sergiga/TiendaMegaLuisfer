@@ -1,0 +1,79 @@
+body, html {
+  background-color: #1A3E58;
+  height: 100%;
+}
+
+.card-container.card {
+  max-width: 350px;
+  padding: 40px 40px;
+  overflow: hidden;
+}
+
+.btn {
+    font-weight: 50;
+    height: 44px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.card {
+  width: 300px;
+  padding: 40px 30px;
+  background: #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.logo-img-card {
+      width: 75%;
+      margin: 0 auto 40px;
+      display: block;
+}
+
+.form-signin #inputUsername,
+.form-signin #inputPassword {
+    background-color: #eee;
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.form-signin input[type=username],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+  width: 100%;
+  position: relative;
+  border: thin solid #D3D3D3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn.btn-next {
+    background-color: rgb(74, 140, 247);
+    color: #EBEBEB;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-image: linear-gradient(rgb(74, 140, 247), rgb(44, 124, 255));
+}
